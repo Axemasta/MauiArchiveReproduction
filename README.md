@@ -1,4 +1,7 @@
 # Maui Archive Reproduction
+
+[![Issue Status](https://img.shields.io/github/issues/detail/state/dotnet/maui/11906)](https://github.com/dotnet/maui/issues/11906)
+
 Sample code reproduction of an issue affecting archival of maui apps
 
 
