@@ -1,12 +1,18 @@
-﻿namespace ArchiveIssueReproduction;
+﻿using MyClassLib;
+
+namespace ArchiveIssueReproduction;
 
 public partial class MainPage : ContentPage
 {
 	int count = 0;
 
+	private readonly Class1 class1;
+
 	public MainPage()
 	{
 		InitializeComponent();
+
+		class1 = new Class1();
 	}
 
 	private void OnCounterClicked(object sender, EventArgs e)
